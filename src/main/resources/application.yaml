@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: WebServish
+
+application:
+  external:
+    service:
+      url: http://httpbin.org/anything
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    java.net.http.HttpClient: INFO

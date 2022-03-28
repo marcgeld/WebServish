@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: WebServish
+
+application:
+  external:
+    service:
+      url: will-be-set-in-tests
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+    java.net.http.HttpClient: DEBUG
