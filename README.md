@@ -3,8 +3,8 @@ A simple Webb/REST project
 
 ```mermaid
 sequenceDiagram
-    HttpClient->>+RestController: request for root / 
-    Controller-->>-RestController: respond with request headers and base64 encoded respond with request headers 
+    HttpClient->>+RestController: request for root /
+    RestController->>+HttpClient: respond with request headers and base64 encoded respond with request headers
 ```
 
 ```mermaid
